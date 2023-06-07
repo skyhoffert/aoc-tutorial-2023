@@ -1,0 +1,32 @@
+--- Day 0: Where to Begin... ---
+
+It's going to take a lot of Elf labor hours to prepare for this Christmas season... we need to use last year's data to get a better idea of how busy we will be this year!
+
+You are given a list (your puzzle input) of last year's labor hours per each present made for Christmas 2022. Simply sum every row together to come up with an estimate for total hours spent making gifts.
+
+For example, suppose the Elves only needed to make 10 gifts last year. The list could appear like the following:
+
+10
+20
+5
+-10
+0
+15
+-20
+3
+2
+-3
+
+Each line contains a single value, the number of hours spent on one particular gift in 2022.
+
+Some gifts are re-gifted (don't tell anyone) and end up saving the Elves valuable labor hours. These presents are shown as negative numbers.
+
+By adding each line to a running total, line by line, we come to the value of 22 labor hours.
+
+Now, using the actual list, how many labor hours were spent last year making presents?
+
+<you should come to the answer of TBD>
+
+--- Part Two ---
+
+
