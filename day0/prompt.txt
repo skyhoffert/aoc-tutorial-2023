@@ -2,7 +2,7 @@
 
 It's going to take a lot of Elf labor hours to prepare for this Christmas season... we need to use last year's data to get a better idea of how busy we will be this year!
 
-You are given a list (your puzzle input) of last year's labor hours per each present made for Christmas 2022. Simply sum every row together to come up with an estimate for total hours spent making gifts.
+You are given a list (your puzzle input) of last year's labor hours per each present made for Christmas 2022. You need to add every row together to come up with an estimate for total hours spent making gifts.
 
 For example, suppose the Elves only needed to make 10 gifts last year. The list could appear like the following:
 
@@ -19,7 +19,7 @@ For example, suppose the Elves only needed to make 10 gifts last year. The list 
 
 Each line contains a single value, the number of hours spent on one particular gift in 2022.
 
-Some gifts are re-gifted (don't tell anyone) and end up saving the Elves valuable labor hours. These presents are shown as negative numbers.
+Some gifts are re-gifted (don't tell anyone) and end up saving the Elves valuable labor hours. These hours are shown as negative numbers.
 
 By adding each line to a running total, line by line, we come to the value of 22 labor hours.
 
@@ -29,4 +29,16 @@ Now, using the actual list, how many labor hours were spent last year making pre
 
 --- Part Two ---
 
+Wait a minute... Our data science team found an error in the data-analytics software from last year. Those negative numbers aren't actually negative hours.
 
+It turns out that a negative number indicates the end of a smaller list containing the numbers above. Each present took the sum of a few Elves' time to make.
+
+For the example above, the first present took 10 + 20 + 5 = 35 hours to make. The second present took 0 + 15 = 15 hours to make. The third took 3 + 2 = 5 hours to make.
+
+Now, instead of finding the total sum of hours, our data science team would like to track the maximum number of hours it takes to create a present.
+
+For the example above, that would be 35 hours.
+
+What is the maximum number of hours it took to make a Christmas present last year?
+
+<you should come to the answer of TBD>
